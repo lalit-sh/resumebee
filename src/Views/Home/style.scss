@@ -1,0 +1,47 @@
+.home-container{
+    background: url("../../assets/images/home.png") no-repeat black;
+    background-size: 100% 99%;
+    position: relative;
+    margin-top: -65px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    &:after{
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+
+    .container-center{
+        position: relative;
+        z-index: 1;
+        max-width: 600px;
+        text-align: center;
+        h3{
+            color: #fff;
+            font-size: 56px;
+            text-align: left;
+        }
+        img{
+            position: absolute;
+            top: 45%;
+            transform: translateY(-50%);
+            left: 130px;
+        }
+        a{
+            margin-top: 40px;
+            font-size: 28px;
+            padding: 10px 40px;
+            width: 80%;
+            font-weight: bold;
+        }
+    }
+
+}

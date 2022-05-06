@@ -1,8 +1,11 @@
-import pic from '../../Assets/images/Logo.png'
+import logo from '../../assets/images/Logo.png'
 
 const Logo = () => {
     return (
-        <img src={pic}></img>
+        <img 
+            src={logo} 
+            alt="Logo"
+        />
     )
 }
 

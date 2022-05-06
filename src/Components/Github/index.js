@@ -1,8 +1,13 @@
-import Git from '../../Assets/images/Github.png'
+import gitLogo from '../../assets/images/githubLogo.png'
 
 const Github = () => {
     return (
-        <a href="#"><img src={Git} alt='Github'></img></a>
+        <a href="#">
+            <img 
+                src={gitLogo} 
+                alt='Github Logo' 
+            />
+        </a>
     )
 }
 

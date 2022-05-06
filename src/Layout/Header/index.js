@@ -1,15 +1,24 @@
-import React from "react";
-import Main from "../../Components/Main";
-import Navbar from "../../Components/Navbar";
-import './style.scss';
+import Github from '../../Components/Github';
+import Logo from '../../Components/Logo';
+import "./style.scss";
 
-const Header = ({}) => {
-    return (
-        <header className="header container-fluid">
-           <Navbar />
-           <Main />
+function Navbar(){
+    return(
+        <header className='header header-top'>
+            <nav className='nav-bar'>
+                <Logo />
+                <div>
+                    <a 
+                        href="#over" 
+                        className='about'
+                    >
+                        About Us
+                    </a>
+                    <Github />
+                </div>
+            </nav>
         </header>
     )
 }
 
-export default Header;
+export default Navbar
