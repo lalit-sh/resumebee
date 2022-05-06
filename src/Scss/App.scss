@@ -1,0 +1,14 @@
+@import "./Variable.scss";
+
+body{
+    font-family: 'Inter' sans-serif;
+}
+
+.btn-primary{
+    background-color: $primary-color;
+    border-color: $primary-color;
+    &:hover{
+        outline: $primary-color;
+        background-color: $primary-color-fast;
+    }
+}
