@@ -7,8 +7,8 @@ const Layout = (props) => {
     return (
         <>
             <Header />
-            {/* <Outlet />
-            <Footer /> */}
+            <Outlet />
+            <Footer />
         </>
     )
 }

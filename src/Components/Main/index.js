@@ -12,6 +12,7 @@ const Main = () => {
                     </span> 
                     absolutely free</h3>
             <a href='#resume'>Build My Resume Now</a>
+
             </div>
         </main>
      )

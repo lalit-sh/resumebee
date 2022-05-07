@@ -1,10 +1,16 @@
 
+import Main from '../../Components/Main';
+import './style.scss';
+
+
+
 const Home = () => {
     return (
         <div className="container-fluid">
             <div className="row">
                 <div className="col-sm-12">
-                    <h1>this is home</h1>
+                <Main />
+                <h1>hello world</h1>
                 </div>
             </div>
         </div>
@@ -12,3 +18,4 @@ const Home = () => {
 }
 
 export default Home;
+
