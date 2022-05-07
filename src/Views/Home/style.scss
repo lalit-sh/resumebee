@@ -1,106 +1,47 @@
-body {
-    font-family: 'Inter' sans-serif;
-    margin: 0;
+.home-container{
     background: url("../../Assets/images/home.png") no-repeat black;
     background-size: 100% 99%;
-    width: 100vw;
+    position: relative;
+    margin-top: -65px;
     height: 100vh;
-    position: relative;
-  }
-  body:after{
-    content: "";
-    position: absolute;
-    top: 0%;
-    left: 0;
-    background-color: rgba(0, 0, 0, .8);
-    width: 100%;
-    height: 100%;
-  }
-
-
-/*main component*/
-main{
-    position: relative;
-    z-index: 2;
-}
-.container{
-    max-width: 550px;
     display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    color: white;
     justify-content: center;
     align-items: center;
-
-}
-.h3{
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 71px;
-    text-align: left;
-    margin: 40px 0;
-}
-
-span  img{
-    width: 259px;
-    height: 70px;
-  
-}
- .span{ 
-     position: relative;
-     display: inline-flex;
-     align-items: center;
-     justify-content: center;
-     margin-left: 20px;
+    z-index: 1;
+    &:after{
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        height: 100%;
+        z-index: 0;
     }
-span .search{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: 53%;
-    top: 0;
-}
-.container a{
-    text-decoration: none;
-    color: white;
-    font-size: 33px;
-    font-weight: 700;
-    padding: 16px 70px;
-    background-color: 
-    #FFCC29;
-    text-align: center;
-    border-radius: 5px;
-}
 
-@media only screen and (max-width:576px){ 
-    /*main component*/
-    .container .h3{
-        font-size: 2.6rem;
-        line-height: 50px;
+    .container-center{
+        position: relative;
+        z-index: 1;
+        max-width: 600px;
         text-align: center;
+        h3{
+            color: #fff;
+            font-size: 56px;
+            text-align: left;
+        }
+        img{
+            position: absolute;
+            top: 45%;
+            transform: translateY(-50%);
+            left: 130px;
+        }
+        a{
+            margin-top: 40px;
+            font-size: 28px;
+            padding: 10px 40px;
+            width: 80%;
+            font-weight: bold;
+        }
     }
 
-    .container{
-        max-width: 90%;
-        margin-top: 2rem;
-    }
-
-    span img{
-        width: 250px;
-        height: 80px;
-    }
-    span .img-logo{
-        margin: 0 auto;
-    }
-    .container a{
-    font-size: 25px;
-    padding: 15px 40px;
 }
-span .search{
-    top: 3%;
-    left: 55%;
-}
-.span{
-display: flex;
-}
-} 

@@ -5,6 +5,7 @@ import "./Scss/App.scss";
 import Layout from "./Layout";
 import { store, persistor } from "./Redux/store";
 import Home from "./Views/Home";
+import About from "./Views/About";
 
 function App() {
     return (
@@ -13,12 +14,14 @@ function App() {
                 <Router>
                     <Routes>
                         <Route path="/" element={<Layout />}>
-                            
                             <Route  
-                                path="/"
+                                index
                                 element={<Home />} 
                             />
-
+                            <Route
+                                path="about"
+                                element={<About />}
+                            />
                         </Route>
                     </Routes>
                 </Router>
