@@ -3,16 +3,16 @@
 # ResumeBee  
 
 ## **Introduction**
-ResumeBee, a opensource all front-end application using which you can build your resume in 5 mins.
+ResumeBee, an opensource all front-end application which you can use in making your resume in a few steps.
 
 **Simply Select template -> Add your Details -> And Download.**
 
-thats all for a brand new resume that you need.
+Thats all for a brand new resume that you need.
 
 ---
 ## In Development
 
-Its a opensource project that we dream one day can help you build your resume as easily as possible. 
+Its an opensource project that we dream one day can help you build your resume as easily as possible. 
 
 But currently we are only in development. 
 

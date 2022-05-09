@@ -1,7 +1,6 @@
-import logo from '../../Assets/images/Logo.png'
 
-import './style.scss';
-
+import logo from '../../assets/images/Logo.png'
+import "./style.scss";
 
 
 const Home = () => {

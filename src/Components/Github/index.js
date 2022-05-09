@@ -1,4 +1,5 @@
-import gitLogo from '../../Assets/images/githubLogo.png'
+
+import gitLogo from '../../assets/images/githubLogo.png'
 
 const Github = () => {
     return (
