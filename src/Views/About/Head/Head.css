@@ -1,0 +1,58 @@
+.h-container{
+    background: url('./about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 95vh;
+    display: flex;
+    margin-top: -4.5rem;
+    cursor: pointer;
+}
+.h-left{
+    padding: 10rem 8rem ;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+}
+.h-left>img{
+    padding-bottom: 2rem;
+}
+.h-left>span{
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 475px) {
+    .h-container{
+        display: flex;
+        height: 40vh;
+        margin-right: -13rem;
+    }
+    .h-left{
+        height: 30px;
+        padding: 5rem 10px;
+        
+    }
+    .h-left>img{
+        transform: scale(0.6);
+        padding-bottom:3px ;
+    }
+    .h-left>span{
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

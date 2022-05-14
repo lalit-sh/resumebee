@@ -1,0 +1,40 @@
+.c-container{
+    height: 70vh;
+    position: relative;
+    /* display: flex; */
+    margin-top: 2rem;
+}
+
+.c-down{
+    padding: 3rem;
+}
+
+.c-copy{
+    margin-top: 12rem;
+    margin-bottom: -5rem;
+    text-align: center;
+}
+.c-craft{
+    margin-top: 6rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+i{
+    color: red;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
