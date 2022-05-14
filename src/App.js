@@ -20,7 +20,7 @@ function App() {
                                 element={<Home />} 
                             />
                             <Route
-                                path="about"
+                                path="/about"
                                 element={<About />}
                             />
                         </Route>
@@ -32,3 +32,6 @@ function App() {
 }
 
 export default App;
+
+
+
