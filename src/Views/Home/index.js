@@ -1,5 +1,7 @@
+
 import logo from '../../assets/images/Logo.png'
 import "./style.scss";
+
 
 const Home = () => {
     return ( 
@@ -25,3 +27,4 @@ const Home = () => {
 }
 
 export default Home;
+

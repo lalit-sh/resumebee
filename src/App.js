@@ -4,7 +4,6 @@ import { PersistGate } from 'redux-persist/integration/react'
 import "./Scss/App.scss";
 import Layout from "./Layout";
 import { store, persistor } from "./Redux/store";
-
 import Home from "./Views/Home";
 import About from "./Views/About";
 
