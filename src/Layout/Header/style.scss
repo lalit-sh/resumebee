@@ -6,8 +6,6 @@
         padding: 10px 20px;
         position: relative;
         z-index: 22;
-    }
-    .nav-bar{
         img{
             width: 200px;
             height: 45px;
@@ -40,15 +38,15 @@
     .header-top{
         .nav-bar{
             img{
-                width: 170px;
-            }
-            a{
-                font-size: 1.3rem;
-            }
+                width: 160px;
+            } 
             div{
                 img{
                     width: 30px;
                     height: 30px;
+                }
+                .about{
+                    font-size: 1.2rem;
                 }
             } 
         }

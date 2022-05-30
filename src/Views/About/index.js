@@ -2,7 +2,7 @@
 
 const About = ({}) => {
     return (
-        <div className="contianer">
+        <div className="container">
             this is about
         </div>
     )

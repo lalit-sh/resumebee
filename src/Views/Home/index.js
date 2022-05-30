@@ -16,7 +16,7 @@ const Home = () => {
                     src={logo} 
                     alt='logo' 
                 />
-                <h3>
+                <h3 className='h3-2'>
                     absolutely free
                 </h3>
                 <a href='#resume' className='btn btn-primary'>

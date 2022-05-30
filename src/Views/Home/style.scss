@@ -1,3 +1,4 @@
+
 .home-container{
     background: url("../../Assets/images/home.png") no-repeat black;
     background-size: 100% 99%;
@@ -41,6 +42,28 @@
             padding: 10px 40px;
             width: 80%;
             font-weight: bold;
+        }
+
+    @media screen and (max-width: 576px) {
+        max-width: 400px;
+        h3{
+            font-size: 3rem;
+            text-align: center;
+        }
+        .h3-2 {
+            margin-top: 2.7rem;
+        }
+        img{
+            top: 50%;
+            left: 90px;
+            transform: translateY(-35%);
+        }
+        a{
+            margin-top: 30px;
+            padding: 8px 25px;
+            width: 85%;
+            font-size: 25px;
+        }
         }
     }
 
