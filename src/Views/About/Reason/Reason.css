@@ -1,0 +1,25 @@
+.R-container{
+    display: flex;
+    padding: 5rem 8rem;
+    height: 40vh;
+    position: relative;
+    justify-content: space-between;
+}
+.R-content{
+    display: flex;
+    width: 25%;
+    height: 15rem;
+    flex-direction: column;
+    background: rgb(202, 199, 199);
+    padding: 10px 40px;
+}
+.R-content :nth-child(1){
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.R-content :nth-child(2){
+    font-size: 20px;
+    font-family: sans-serif;
+}
